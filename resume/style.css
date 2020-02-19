@@ -1,13 +1,14 @@
 /*Styles for my resume*/
 
 
-
+/*Basic Font and Color */
 body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444;
 }
 
+/* Banner Name */
 h1{
   font-size:3em;
   color: #33485e;
@@ -15,34 +16,40 @@ h1{
   text-align: center;
 }
 
+/* Name */
 strong{
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
 }
 
+/* Section Titles */
 h2{
   font-size: 1.5em;
   background-color: #33485e;
   color: #fff;
 }
 
+/* Job Titles */
 h3{
   font-weight: 600;
   font-size: 1.5em;
 }
 
+/*Job Organization */
 h4{
   font-weight:400;
   font-size: 1.5em;
 }
 
+/* Job Dates */
 h5{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
+/* List Items */
 li{
   font-size: 1em;
 }
