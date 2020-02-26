@@ -45,19 +45,25 @@ strong{
 }
 
 /*Job Organization */
-h4{
+.organization{
   font-weight:400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* Job Dates */
-h5{
+.date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
 }
 
 /* List Items */
 li{
   font-size: 1em;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
