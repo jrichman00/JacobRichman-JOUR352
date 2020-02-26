@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-  width:100%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
@@ -44,13 +44,15 @@ body{
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
-  margin: 20px 0px 10px 0px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   width: 70%;
   min-width: 300px;
+  padding-left: 10px;
 }
 
 /* Job Titles */
-.jobtitles{
+.jobtitle{
   font-weight: 600;
   font-size: 1.5em;
 }
@@ -80,8 +82,13 @@ li{
 }
 
 .menu{
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
+
+}
+
+.menu li {
   display: inline;
   list-style-type: none;
 }
