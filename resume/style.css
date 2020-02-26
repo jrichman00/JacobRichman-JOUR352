@@ -8,6 +8,14 @@ body{
   color: #444;
 }
 
+#container{
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+
+}
+
 /* Banner Name */
 #name {
   font-size:3em;
@@ -21,10 +29,13 @@ body{
 }
 
 /* Name */
-strong{
+#title{
+  font-weight: 600;
   font-size: 1.5em;
   text-transform: uppercase;
   color: #33485e;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Section Titles */
@@ -33,7 +44,7 @@ strong{
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
-  margin: 20px 0px 10px 0px
+  margin: 20px 0px 10px 0px;
   width: 70%;
   min-width: 300px;
 }
@@ -66,4 +77,26 @@ li{
 .description{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.menu{
+  margin: 0 auto;
+  text-align: center;
+  display: inline;
+  list-style-type: none;
+}
+
+#degrees{
+  margin-top: 5px;
+}
+
+#do{
+  margin-top: 5px;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
