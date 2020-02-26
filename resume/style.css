@@ -9,11 +9,15 @@ body{
 }
 
 /* Banner Name */
-h1{
+#name {
   font-size:3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* Name */
@@ -24,15 +28,18 @@ strong{
 }
 
 /* Section Titles */
-h2{
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
+  margin: 20px 0px 10px 0px
+  width: 70%;
+  min-width: 300px;
 }
 
 /* Job Titles */
-h3{
+.jobtitles{
   font-weight: 600;
   font-size: 1.5em;
 }
