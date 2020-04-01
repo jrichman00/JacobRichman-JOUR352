@@ -1,0 +1,51 @@
+/* headlline*/
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+/*subheadings*/
+h2{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 30px;
+}
+/* body text*/
+p{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+/* center text*/
+#story{
+  margin: 0 auto;
+  width: 900px;
+}
+/* byline css */
+#byline{
+  font-family: helvetica, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+/*banner setup*/
+.banner{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
+}
+/*css just for captions */
+figcaption{
+  font-family: helvetica, sans-serif;
+  font-size: 14px;
+}
+/*pull quote*/
+blockquote{
+  font: 20px/26px normal helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: green;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+  font-weight: bold;
+
+}
