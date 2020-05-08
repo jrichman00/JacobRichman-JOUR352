@@ -19,11 +19,16 @@
   font-family:'Montserrat', sans-serif;
 }
 
+.contrib{
+  font-style: italic;
+}
+
 
 p{
   font-family: georgia, serif;
   line-height: 180%;
 }
+
 
 img{
   display: block;
