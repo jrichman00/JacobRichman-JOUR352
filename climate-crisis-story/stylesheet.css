@@ -1,8 +1,17 @@
 .headline{
-  font-size: 3em;
-  font-weight: 700;
+  font-size: 5em;
+  font-weight: 800;
   text-align: center;
   font-family:'Montserrat', sans-serif;
+  border-left: 10px solid #8B0000;
+}
+.subheadline{
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  border-left: 10px solid #8B0000;
+  border-bottom: 10px solid #8B0000;
 }
 
 .byline {
@@ -31,17 +40,15 @@ p{
 
 
 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 30px;
 }
 
 figcaption{
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 1.2em;
+  text-align: left;
   font-family:'Montserrat', sans-serif;
-  padding-bottom: 30px;
+  border-left: 10px solid #8B0000;
+  border-bottom: 10px solid #8B0000;
 }
 
 footer{
@@ -85,7 +92,7 @@ blockquote p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #B22222;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -94,11 +101,21 @@ blockquote p {
 .sidebar p{
   padding-left: 60px;
   padding-right: 60px;
+  color: black;
+  font-size: 1.5em;
 }
 
 .sidebar ul{
   padding-left: 60px;
   padding-right: 60px;
+  color: black;
+  font-size: 1.5em;
+}
+
+.sidebar h2{
+  padding-left: 60px;
+  padding-right: 60px;
+  color: black;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -117,12 +134,13 @@ blockquote p {
 
 /* The button used to open the sidebar */
 .openbtn {
-  font-size: 50px;
+  font-size: 60px;
   cursor: pointer;
   background-color: #8B0000;
   color: white;
   padding: 15px 15px;
   border: none;
+  margin: auto;
 }
 
 .openbtn:hover {
@@ -139,4 +157,24 @@ blockquote p {
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #00008b;
 }
