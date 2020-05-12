@@ -48,7 +48,6 @@ figcaption{
   text-align: left;
   font-family:'Montserrat', sans-serif;
   border-left: 10px solid #8B0000;
-  border-bottom: 10px solid #8B0000;
 }
 
 footer{
@@ -92,7 +91,7 @@ blockquote p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #B22222;
+  background-color: #E1B7AE;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -113,9 +112,11 @@ blockquote p {
 }
 
 .sidebar h2{
-  padding-left: 60px;
+  padding-left: 15px;
+  padding-bottom: 10px;
   padding-right: 60px;
   color: black;
+  border-left: 10px solid #8B0000;
 }
 
 /* When you mouse over the navigation links, change their color */
